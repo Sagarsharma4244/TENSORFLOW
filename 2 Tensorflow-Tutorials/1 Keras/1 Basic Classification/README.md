@@ -1,9 +1,9 @@
 
-# Basic Classificaiton
+# Basic Image Classificaiton
 Source: https://www.tensorflow.org/tutorials/keras/basic_classification
 
 ## Sandal
-![alt text](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/2%20Tensorflow-Tutorials/1%20Keras/1%20Basic%20Classification/Scandal.PNG "@sagarsharma4244")
+![alt text](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/2%20Tensorflow-Tutorials/1%20Keras/1%20Basic%20Classification/Sandal.PNG "@sagarsharma4244")
 ## Final Layer Neurons Activations :Individual
 ![alt text](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/2%20Tensorflow-Tutorials/1%20Keras/1%20Basic%20Classification/AnkleBoot.PNG "@sagarsharma4244")
 ## Final Layer Neurons Activations :Group
