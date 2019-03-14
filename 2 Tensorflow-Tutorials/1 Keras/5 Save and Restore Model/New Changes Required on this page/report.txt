@@ -1,0 +1,18 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'new.py'
+ outputting to 'upgraded.py'
+--------------------------------------------------------------------------------
+
+6:19: INFO: Renamed 'tf.contrib.saved_model.save_keras_model' to 'tf.keras.experimental.export_saved_model'
+8:12: INFO: Renamed 'tf.contrib.saved_model.load_keras_model' to 'tf.keras.experimental.load_from_saved_model'
+--------------------------------------------------------------------------------
+
