@@ -17,3 +17,4 @@ Source: https://www.tensorflow.org/alpha/tutorials/images/intro_to_cnns
 
 ![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/1%20Images/1%20Intro%20to%20CNNs/5%20Save%20the%20model%20anduse%20it%20later.PNG "@sagarsharma4244")
 
+## Now You Can Use the Model later with js/TFLite
