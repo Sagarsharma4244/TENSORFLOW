@@ -1,7 +1,7 @@
 # Training and Evaluation with TensorFlow Keras
 Source: https://www.tensorflow.org/alpha/guide/keras/training_and_evaluation
 
-![Tensorflow LOGO](hhttps://github.com/Sagarsharma4244/TENSORFLOW/blob/master/4%20Tensorflow2-Alpha-Guide/Keras/Training%20and%20Evaluation%20with%20TensorFlow%20Keras/1%20End%20to%20end%20Example.PNG "@sagarsharma4244")
+![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/4%20Tensorflow2-Alpha-Guide/Keras/Training%20and%20Evaluation%20with%20TensorFlow%20Keras/1%20End%20to%20end%20Example.PNG "@sagarsharma4244")
 
 
 ![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/4%20Tensorflow2-Alpha-Guide/Keras/Training%20and%20Evaluation%20with%20TensorFlow%20Keras/2%20Custom%20loss%20and%20metrics.PNG "@sagarsharma4244")
