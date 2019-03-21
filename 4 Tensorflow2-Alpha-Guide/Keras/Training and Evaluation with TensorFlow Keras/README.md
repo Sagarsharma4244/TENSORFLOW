@@ -80,5 +80,4 @@ for epoch in range(3):
     if step % 200 == 0:
         print('Training loss (for one batch) at step %s: %s' % (step, float(loss_value)))
         print('Seen so far: %s samples' % ((step + 1) * 64))
-        
-        ```
+     
