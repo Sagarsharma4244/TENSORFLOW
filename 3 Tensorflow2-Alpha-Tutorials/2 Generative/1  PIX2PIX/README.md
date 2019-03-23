@@ -5,7 +5,7 @@ This notebook demonstrates image to image translation using conditional GAN's, a
 
 Implementation of paper:
 ## Image-to-Image Translation with Conditional Adversarial Networks
-Source: https://arxiv.org/abs/1611.07004
+Source: https://arxiv.org/abs/1611.07004 , also in this repo
 
 Each epoch takes around 58 seconds on a single P100 GPU.
 
