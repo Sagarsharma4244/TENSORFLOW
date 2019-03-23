@@ -20,12 +20,12 @@ and just change the directoy according to that.
 ` PATH = r"C:\Users\HP\Desktop\Code\TENSORFLOW\3 Tensorflow2-Alpha-Tutorials\2 Generative\1  PIX2PIX\facades"`
 
 ### Dataset
-![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/pix2pix_1.png "@sagarsharma4244")
+![PIX2PIX](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/pix2pix_1.png "@sagarsharma4244")
 
 
-![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/pix2pix_2.png "@sagarsharma4244")
+![PIX2PIX](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/pix2pix_2.png "@sagarsharma4244")
 
 
 ### Training
 
-![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/Training.png "@sagarsharma4244")
+![Training](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/Training.png "@sagarsharma4244")
