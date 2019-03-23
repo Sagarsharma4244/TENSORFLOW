@@ -17,7 +17,7 @@ You can just download the data manually by saving this link and save it and extr
 https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/facades.tar.gz
 
 and just change the directoy according to that. 
-
+` PATH = r"C:\Users\HP\Desktop\Code\TENSORFLOW\3 Tensorflow2-Alpha-Tutorials\2 Generative\1  PIX2PIX\facades"`
 
 ### Dataset
 ![Tensorflow LOGO](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/pix2pix_1.png "@sagarsharma4244")
