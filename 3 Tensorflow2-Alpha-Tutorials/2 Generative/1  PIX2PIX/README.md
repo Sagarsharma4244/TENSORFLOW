@@ -1,7 +1,16 @@
 # Pix2Pix
 Source: https://www.tensorflow.org/alpha/tutorials/generative/pix2pix
 
+This notebook demonstrates image to image translation using conditional GAN's, as described in Image-to-Image Translation with Conditional Adversarial Networks. Using this technique we can colorize black and white photos, convert google maps to google earth, etc. Here, we convert building facades to real buildings.
+
 Implementation of paper:
 ## Image-to-Image Translation with Conditional Adversarial Networks
 Source: https://arxiv.org/abs/1611.07004
+
+Each epoch takes around 58 seconds on a single P100 GPU.
+
+Below is the output generated after training the model for 200 epochs.
+
+
+
 
