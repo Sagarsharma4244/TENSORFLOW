@@ -28,4 +28,7 @@ and just change the directoy according to that.
 
 ### Training
 
-![Training](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/Training.png "@sagarsharma4244")
+![Discriminator](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/Discriminator.png "@sagarsharma4244")
+
+
+![Generator](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/1%20%20PIX2PIX/Generator.png "@sagarsharma4244")
