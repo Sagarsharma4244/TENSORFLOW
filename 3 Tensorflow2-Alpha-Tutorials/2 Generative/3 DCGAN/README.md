@@ -12,6 +12,7 @@ Generative Adversarial Networks (GANs) are one of the most interesting ideas in 
 
 During training, the generator progressively becomes better at creating images that look real, while the discriminator becomes better at telling them apart. The process reaches equilibrium when the discriminator can no longer distinguish real images from fakes.
 
+![GAN @001](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/3%20DCGAN/gan2.png "@sagarsharma4244")
 
 To learn more about GANs, we recommend MIT's Intro to Deep Learning course. : http://introtodeeplearning.com/
 
@@ -25,4 +26,4 @@ Output for the first epoch will be something like this:
 
 According to Tensorflow website, the output at 46th epoch should look something like this:
 
-![GAN @001](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/3%20DCGAN/output_46_0.png "@sagarsharma4244")
+![GAN @049](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/3%20DCGAN/output_46_0.png "@sagarsharma4244")
