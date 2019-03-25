@@ -14,3 +14,15 @@ During training, the generator progressively becomes better at creating images t
 
 
 To learn more about GANs, we recommend MIT's Intro to Deep Learning course. : http://introtodeeplearning.com/
+
+
+## Conclusion
+
+Output for the first epoch will be something like this:
+
+![GAN @001](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/3%20DCGAN/image_at_epoch_0001.png "@sagarsharma4244")
+
+
+According to Tensorflow website, the output at 46th epoch should look something like this:
+
+![GAN @001](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/2%20Generative/3%20DCGAN/output_46_0.png "@sagarsharma4244")
