@@ -93,3 +93,21 @@ plt.plot([TRUE_W] * len(epochs), 'r--',
 plt.legend(['W', 'b', 'true W', 'true_b'])
 plt.show()
 ```
+
+**Output:**
+```
+Epoch  0: W=5.00 b=0.00, loss=8.66408
+Epoch  1: W=4.63 b=0.40, loss=5.97615
+Epoch  2: W=4.33 b=0.72, loss=4.23169
+Epoch  3: W=4.09 b=0.98, loss=3.09933
+Epoch  4: W=3.89 b=1.19, loss=2.36417
+Epoch  5: W=3.73 b=1.35, loss=1.88680
+Epoch  6: W=3.60 b=1.48, loss=1.57677
+Epoch  7: W=3.50 b=1.59, loss=1.37539
+Epoch  8: W=3.41 b=1.68, loss=1.24455
+Epoch  9: W=3.34 b=1.74, loss=1.15954
+
+![Output](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/3%20Eager%20-%20Customization/4%20Custom%20Training-%20Basics/output_22_1.png "@sagarsharma4244")
+
+```
+
