@@ -107,7 +107,5 @@ Epoch  7: W=3.50 b=1.59, loss=1.37539
 Epoch  8: W=3.41 b=1.68, loss=1.24455
 Epoch  9: W=3.34 b=1.74, loss=1.15954
 
-![Output](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/3%20Eager%20-%20Customization/4%20Custom%20Training-%20Basics/output_22_1.png "@sagarsharma4244")
-
 ```
-
+![Output](https://github.com/Sagarsharma4244/TENSORFLOW/blob/master/3%20Tensorflow2-Alpha-Tutorials/3%20Eager%20-%20Customization/4%20Custom%20Training-%20Basics/output_22_1.png "@sagarsharma4244")
