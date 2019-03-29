@@ -56,9 +56,8 @@ print("eager lstm:", timeit.timeit(lambda: lstm_cell(input, state), number=10))
 print("function lstm:", timeit.timeit(lambda: lstm_fn(input, state), number=10))
 ```
 ## Control flow and autograph
+Simple loop
 ```
-# Simple loop
-
 @tf.function
 def f(x):
   while tf.reduce_sum(x) > 1:
@@ -67,4 +66,14 @@ def f(x):
   return x
 
 f(tf.random.uniform([10]))
+```
+To control autograph, remember that it only affects the basic control flow constructs in Python (if, for, while, break, etc) and that it only changes them if the predicates are Tensors.
+
+So in the following example the first loop is statically unrolled while the second loop is dynamically converted:
+```
+@tf.function
+def f(x):
+  for i in range(10):  # Static python loop, we'll not convert it
+    do_stuff()
+  for i in tf.range(10):  # depends on a tensor, we'll convert it
 ```
