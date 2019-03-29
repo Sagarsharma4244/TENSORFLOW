@@ -11,9 +11,9 @@ tf.function tries to be as generic as a Python function. You can call Python fun
 
 You can call a function with arguments of different types to see what is happening.
 
-```
-# Functions are polymorphic
 
+Functions are polymorphic
+```
 @tf.function
 def add(a):
   return a + a
@@ -25,8 +25,8 @@ c = add.get_concrete_function(tf.TensorSpec(shape=None, dtype=tf.string))
 c(a=tf.constant("a"))  # aa
 ```
 
+Functions can be faster than eager code, for graphs with many small ops
 ```
-# Functions can be faster than eager code, for graphs with many small ops
 
 import timeit
 conv_layer = tf.keras.layers.Conv2D(100, 3)
@@ -54,4 +54,17 @@ state = [tf.zeros([10, 10])] * 2
 lstm_cell(input, state); lstm_fn(input, state)
 print("eager lstm:", timeit.timeit(lambda: lstm_cell(input, state), number=10))
 print("function lstm:", timeit.timeit(lambda: lstm_fn(input, state), number=10))
+```
+## Control flow and autograph
+```
+# Simple loop
+
+@tf.function
+def f(x):
+  while tf.reduce_sum(x) > 1:
+    tf.print(x)
+    x = tf.tanh(x)
+  return x
+
+f(tf.random.uniform([10]))
 ```
