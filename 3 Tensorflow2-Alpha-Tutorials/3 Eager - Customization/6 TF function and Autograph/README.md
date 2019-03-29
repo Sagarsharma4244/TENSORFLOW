@@ -77,3 +77,16 @@ def f(x):
     do_stuff()
   for i in tf.range(10):  # depends on a tensor, we'll convert it
 ```
+
+Similarly, to guarantee that prints and asserts happen dynamically, use `tf.print` and `tf.assert`:
+```
+@tf.function
+def f(x):
+  for i in tf.range(10):
+    tf.print(i)
+    tf.Assert(i < 10, ["a"])
+    x += x
+  return x
+
+f(10)
+```
