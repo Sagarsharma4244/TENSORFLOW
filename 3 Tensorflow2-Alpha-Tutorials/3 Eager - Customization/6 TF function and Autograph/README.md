@@ -90,3 +90,15 @@ def f(x):
 
 f(10)
 ```
+## tensorflow data structure
+```
+@tf.function
+def f(x):
+  ta = tf.TensorArray(tf.float32, size=10)
+  for i in tf.range(10):
+    x += x
+    ta = ta.write(i, x)
+  return ta.stack()
+
+f(10.0)
+```
